@@ -1,0 +1,346 @@
+.contact {
+  width: 100%;
+  min-height: 100vh;
+  padding: 120px 8%;
+  background: #090909;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-sub {
+  font-family: "Allura", cursive;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.7rem;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+.contact-terminal {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: left;
+  background: #111111;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 18px;
+  padding: 35px 40px;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, .5);
+  transition: .4s ease;
+}
+
+.contact-terminal:hover {
+  border-color: rgba(255, 255, 255, .3);
+  transform: translateY(-5px);
+  box-shadow:
+    0 25px 70px rgba(255, 255, 255, .05);
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+  margin-bottom: 25px;
+}
+
+.terminal-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.terminal-dot.red {
+    background: #ff5f57;
+}
+
+.terminal-dot.yellow {
+    background: #ffbd2e;
+}
+
+.terminal-dot.green {
+    background: #28c840;
+}
+
+.terminal-title {
+  margin-left: 10px;
+
+  font-family: "IBM Plex Mono", monospace;
+
+  font-size: .8rem;
+
+  color: #777;
+}
+
+/* ==========================
+   TERMINAL CONTENT
+========================== */
+
+.terminal-content {
+  font-family: "IBM Plex Mono", monospace;
+
+  font-size: 1rem;
+
+  line-height: 2;
+
+  color: #bcbcbc;
+}
+
+.terminal-line {
+  margin-bottom: 8px;
+}
+
+.terminal-command {
+  color: #ffffff;
+}
+
+.terminal-highlight {
+  color: #ffffff;
+}
+
+/* Cursor */
+
+.cursor {
+  display: inline-block;
+
+  width: 8px;
+  height: 18px;
+
+  background: #ffffff;
+
+  margin-left: 5px;
+
+  vertical-align: middle;
+
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
+
+}
+
+/* ==========================
+   SEND MESSAGE BUTTON
+========================== */
+
+.contact-btn {
+  display: inline-block;
+
+  margin-top: 25px;
+
+  padding: 13px 28px;
+
+  border-radius: 50px;
+
+  background: #ffffff;
+
+  color: #000000;
+
+  text-decoration: none;
+
+  font-family: "Inter", sans-serif;
+
+  font-size: .9rem;
+
+  font-weight: 600;
+
+  transition: .35s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-4px);
+
+  background: #dcdcdc;
+
+  box-shadow:
+    0 10px 30px rgba(255, 255, 255, .15);
+}
+
+/* ==========================
+   CONTACT LINKS
+========================== */
+
+.contact-links {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 60px;
+
+  margin-top: 45px;
+}
+
+.contact-link {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+  text-decoration: none;
+
+  transition: .3s ease;
+}
+
+.contact-link-title {
+  font-family: "IBM Plex Mono", monospace;
+
+  font-size: .85rem;
+
+  color: #777;
+
+  transition: .3s ease;
+}
+
+.contact-link-value {
+  font-family: "Inter", sans-serif;
+
+  font-size: .95rem;
+
+  color: #ffffff;
+
+  transition: .3s ease;
+}
+
+.contact-link:hover {
+  transform: translateY(-5px);
+}
+
+.contact-link:hover .contact-link-title {
+  color: #ffffff;
+}
+
+.contact-link:hover .contact-link-value {
+  color: #bdbdbd;
+}
+
+/* ==========================
+   TABLET
+========================== */
+
+@media (max-width: 992px) {
+
+  .contact {
+    padding: 100px 6%;
+  }
+
+  .contact-title {
+    font-size: 2.3rem;
+  }
+
+  .contact-terminal {
+    max-width: 750px;
+  }
+
+  .contact-links {
+    gap: 40px;
+  }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 768px) {
+
+  .contact {
+    padding: 90px 6%;
+  }
+
+  .contact-sub {
+    font-size: 2rem;
+  }
+
+  .contact-title {
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+  }
+
+  .contact-terminal {
+    padding: 25px 20px;
+  }
+
+  .terminal-content {
+    font-size: .85rem;
+    line-height: 1.9;
+  }
+
+  .contact-links {
+    flex-direction: column;
+
+    gap: 25px;
+
+    margin-top: 35px;
+  }
+
+}
+
+/* ==========================
+   SMALL MOBILE
+========================== */
+
+@media (max-width: 480px) {
+
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .contact-sub {
+    font-size: 1.7rem;
+  }
+
+  .contact-title {
+    font-size: 1.5rem;
+  }
+
+  .contact-terminal {
+    padding: 22px 16px;
+
+    border-radius: 14px;
+  }
+
+  .terminal-header {
+    padding-bottom: 18px;
+  }
+
+  .terminal-content {
+    font-size: .75rem;
+  }
+
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+}

@@ -20,7 +20,7 @@ function AboutMe() {
               <p>Projects</p>
             </div>
             <div className="stat">
-              <h2>7.77</h2>
+              <h2>7.88</h2>
               <p>CGPA</p>
             </div>
             <div className="stat">

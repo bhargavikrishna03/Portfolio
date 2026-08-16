@@ -4,7 +4,7 @@ function SkillCard({number,title,description,skills}) {
   return (
     <>
       <div className="skill-card">
-        <span className="skill-number">{number}</span>
+        {/* <span className="skill-number">{number}</span> */}
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="skills-tags">

@@ -20,7 +20,7 @@ function Contact() {
                 <span className="terminal-command">$ contact Bhargavi</span>
               </p>
               <p className="terminal-line">&gt; Role:<span className='terminal-highlight'>Software Developer</span></p>
-              <p className="terminal-line">&gt; Focus: Web Development & Software Engineering</p>
+              <p className="terminal-line">&gt; Focus:Software Engineering &  Web Development  </p>
               <p className="terminal-line">&gt; Status: Open to opportunities</p>
               <p className="terminal-line">&gt; Let's build something meaningful together<span className='cursor'></span></p>
               <a href="mailto:krishnabhargavi01@gmail.com" className="contact-btn">Send Message</a>

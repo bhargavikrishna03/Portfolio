@@ -9,7 +9,7 @@ function ProjectCard({title,category,description,video,technologies,github,live}
           <video src={video} controls muted playsInline></video>
         </div>
         <div className="project-content">
-          <p className="project-number">{category}</p>
+          {/* <p className="project-number">{category}</p> */}
           <h2>{title}</h2>
           <p>{description}</p>
           <div className="project-tech">{technologies.map((tech, index) => (<span key={index}>{tech}</span>))}</div>

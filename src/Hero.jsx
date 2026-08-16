@@ -9,7 +9,7 @@ function Hero() {
     <div className="hero">
       <div className="hero-content">
         {/* <span className="hero-tag">Katikam Bhargavi</span> */}
-        <h1>Frontend Developer & Software Engineer</h1>
+        <h1>Software Developer</h1>
         <p>
           Computer Science graduate passionate about building responsive web
           applications using React, JavaScript, Node.js, and MongoDB. I enjoy

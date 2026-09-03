@@ -44,7 +44,7 @@ function Project() {
       video: youtubeClone,
       technologies: ["HTML", "CSS", "Flexbox", "CSS Grid"],
       github: "https://github.com/bhargavikrishna03/YouTube-Clone",
-      live: "#"
+      live: "https://youtubereplicaui.netlify.app/"
     }
   ]
   return (

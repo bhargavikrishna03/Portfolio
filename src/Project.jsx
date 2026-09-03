@@ -22,7 +22,7 @@ function Project() {
       video: pringlesVideo,
       technologies: ["Figma", "UI Design", "Prototyping"],
       github: "#",
-      live: "#"
+      live: "https://www.figma.com/proto/j0BPlRBE6Nat1SOgn5Yks2/Pringles?node-id=1-2&starting-point-node-id=1%3A2"
     },
 
     {

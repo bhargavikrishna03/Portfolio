@@ -2,7 +2,7 @@ import React from 'react'
 import './Project.css'
 import ProjectCard from './ProjectCard'
 import diaryVideo from './videos/Sakha! - Krishna - Microsoft​ Edge 2026-07-17 23-11-25.mp4'
-import pringlesVideo from './videos/Pringles - Figma 2025-11-08 21-37-13.mp4'
+import velvetDripVideo from './videos/VelvetDrip-Video.mp4'
 import cppVideo from './videos/Student Report Card.cpp - Code__Blocks 25.03 2025-09-20 18-14-00.mp4'
 import youtubeClone from'./videos/Screen Recording 2024-10-18 210924.mp4'
 function Project() {
@@ -13,17 +13,17 @@ function Project() {
       video:diaryVideo, technologies:["React","Node.js","Express","MongoDB"],github:"https://github.com/bhargavikrishna03/Diary",live:"#"
     },
 
-    {
-      number:"02",
-      title: "Pringles Website",
-      category: "UI/UX DESIGN",
-      description:
-        "A modern product website concept designed in Figma with a focus on visual design and user experience.",
-      video: pringlesVideo,
-      technologies: ["Figma", "UI Design", "Prototyping"],
-      github: "#",
-      live: "https://www.figma.com/proto/j0BPlRBE6Nat1SOgn5Yks2/Pringles?node-id=1-2&starting-point-node-id=1%3A2"
-    },
+  {
+  number: "03",
+  title: "Velvet Drip",
+  category: "WEB DEVELOPMENT",
+  description:
+    "A responsive cafe website with a menu, search, category filters, a cart and WhatsApp ordering, built with React.",
+  video: velvetDripVideo,
+  technologies: ["React", "Tailwind CSS", "Context API", "WhatsApp API"],
+  github: "https://github.com/bhargavikrishna03/Portfolio/",
+  live: "https://velvet-drip.vercel.app/"
+},
 
     {
       number:"03",

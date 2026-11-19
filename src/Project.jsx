@@ -14,7 +14,7 @@ function Project() {
     },
 
   {
-  number: "03",
+  number: "02",
   title: "Velvet Drip",
   category: "WEB DEVELOPMENT",
   description:

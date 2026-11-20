@@ -4,13 +4,14 @@ import ProjectCard from './ProjectCard'
 import diaryVideo from './videos/Sakha! - Krishna - Microsoft​ Edge 2026-07-17 23-11-25.mp4'
 import velvetDripVideo from "./videos/VelvetDrip-Video.mp4";
 import cppVideo from './videos/Student Report Card.cpp - Code__Blocks 25.03 2025-09-20 18-14-00.mp4'
-import youtubeClone from'./videos/Screen Recording 2024-10-18 210924.mp4'
+// import youtubeClone from './videos/Screen Recording 2024-10-18 210924.mp4'
+import expenseTracker from'./videos/Income_Expense - Google Chrome 2026-09-03 17-08-17.mp4'
 function Project() {
   const projects = [
     {
       number:"01",
       title: "Personal Diary", category: "FULL STACK", description: "A full-stack diary application with authentication, CRUD operations and a responsive interface.",
-      video:diaryVideo, technologies:["React","Node.js","Express","MongoDB"],github:"https://github.com/bhargavikrishna03/Diary",live:"#"
+      video:diaryVideo, technologies:["React","Node.js","Express","MongoDB","HTML","CSS"],github:"https://github.com/bhargavikrishna03/Diary",live:"#"
     },
 
   {
@@ -37,14 +38,14 @@ function Project() {
       live: "#"
     }, {
       number:"04",
-      title: "YouTube-style frontend interface",
+      title: "expenseTracker",
       category: "FRONTEND DEVELOPMENT",
       description:
-        "A YouTube-inspired frontend interface built using HTML and CSS. The project focuses on creating a structured video platform layout with responsive design, content organization, and modern page styling using CSS Flexbox and Grid.",
-      video: youtubeClone,
+        "•	Built CRUD expense tracker with REST APIs, MongoDB storage and real-time UI updates.",
+      video: expenseTracker,
       technologies: ["HTML", "CSS", "Flexbox", "CSS Grid"],
-      github: "https://github.com/bhargavikrishna03/YouTube-Clone",
-      live: "https://youtubereplicaui.netlify.app/"
+      github: "https://github.com/bhargavikrishna03/Expense-Tracker",
+      live: "https://expense-tracker-one-nu-29.vercel.app/"
     }
   ]
   return (

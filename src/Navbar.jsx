@@ -13,11 +13,8 @@ function Navbar() {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-<<<<<<< HEAD
-        <a href="./assets/KatikamBhargavi_SoftwareDeveloper.pdf" className="resume-btn">Resume</a>
-=======
-        <a href="/public/KatikamBhargavi(FullStack).pdf" className="resume-btn">Resume</a>
->>>>>>> 0909ae3 (Update portfolio Resume)
+
+        <a href="/Katikam-Bhargavi.pdf" target="_blank" rel="noreferrer" className="resume-btn">Resume</a>
     </div>
     </>
   )

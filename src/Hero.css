@@ -292,7 +292,7 @@
         font-size: 1.1rem;
     }
 
-    .profile-img {
+    .profile-imge {
         width: 520px;
     }
 
@@ -323,7 +323,7 @@
         font-size: 2rem;
     }
 
-    .profile-img {
+    .profile-imge {
         width: min(100%, 420px);
     }
 
@@ -395,7 +395,7 @@
         margin: auto;
     }
 
-    .profile-img {
+    .profile-imge {
 
         width: 350px;
     }
@@ -546,7 +546,7 @@
         font-size: 0.85rem;
     }
 
-    .profile-img {
+    .profile-imge {
 
         width: 210px;
     }

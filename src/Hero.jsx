@@ -18,7 +18,7 @@ function Hero() {
         </p>
         <div className="hero-buttons">
           <button className="primary-btn" onClick={()=>document.getElementById("projects").scrollIntoView({behavior:"smooth"})}>View Projects</button>
-          <a className="secondary-btn" href="src/assets/KatikamBhargavi_SoftwareDeveloper.pdf" download>Download Resume</a>
+          <a className="secondary-btn" href="./src/assets/KatikamBhargavi_SoftwareDeveloper.pdf" download>Download Resume</a>
         </div>
 
       </div>

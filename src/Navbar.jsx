@@ -13,7 +13,7 @@ function Navbar() {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="src/assets/KatikamBhargavi_SoftwareDeveloper.pdf" className="resume-btn">Resume</a>
+        <a href="./src/assets/KatikamBhargavi_SoftwareDeveloper.pdf" className="resume-btn">Resume</a>
     </div>
     </>
   )

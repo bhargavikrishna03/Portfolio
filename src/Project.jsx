@@ -2,7 +2,7 @@ import React from 'react'
 import './Project.css'
 import ProjectCard from './ProjectCard'
 import diaryVideo from './videos/Sakha! - Krishna - Microsoft​ Edge 2026-07-17 23-11-25.mp4'
-import velvetDripVideo from './videos/VelvetDrip-Video.mp4'
+import velvetDripVideo from './src/videos/VelvetDrip-Video.mp4'
 import cppVideo from './videos/Student Report Card.cpp - Code__Blocks 25.03 2025-09-20 18-14-00.mp4'
 import youtubeClone from'./videos/Screen Recording 2024-10-18 210924.mp4'
 function Project() {

@@ -38,10 +38,10 @@ function Project() {
       live: "#"
     }, {
       number:"04",
-      title: "expenseTracker",
+      title: "Expense Tracker",
       category: "FRONTEND DEVELOPMENT",
       description:
-        "•	Built CRUD expense tracker with REST APIs, MongoDB storage and real-time UI updates.",
+        "Built CRUD expense tracker with REST APIs, MongoDB storage and real-time UI updates.",
       video: expenseTracker,
       technologies: ["HTML", "CSS", "Flexbox", "CSS Grid"],
       github: "https://github.com/bhargavikrishna03/Expense-Tracker",
